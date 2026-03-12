@@ -42,7 +42,9 @@
 
 .carousel-slide {
   min-width: 100%;
-  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  flex: 0 0 100%;
   box-sizing: border-box;
   padding: 50px 0;
 }
@@ -56,6 +58,7 @@
 
 .carousel-info {
   flex: 1;
+  min-width: 0;
   display: flex;
   gap: 30px;
   align-items: flex-start;
@@ -109,6 +112,7 @@
 
 .carousel-image-wrapper {
   flex: 1;
+  min-width: 0;
   display: flex;
   justify-content: center;
   align-items: center;

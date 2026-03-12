@@ -26,7 +26,7 @@ const projects = [
     title: "VLT Advisors",
     category: "Financial Advisory Platform",
     tools: "Wordpress",
-    image: "/images/vltadvisor.png",
+    image: "/images/vltadvisors.png",
   },
   {
     title: "MedAlign Solutions",
